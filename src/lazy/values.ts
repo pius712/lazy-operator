@@ -1,6 +1,6 @@
 
-export function* values(obj:Record<string, any>)  {
-    for (const each of obj.values()) {
+export function* keys(obj:Record<string, any>)  {
+    for (const each of obj.keys()) {
         yield each;
     }
 }
