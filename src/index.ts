@@ -1,0 +1,1 @@
+export * as lazy from './lazy'
